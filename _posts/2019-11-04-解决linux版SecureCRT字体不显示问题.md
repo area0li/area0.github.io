@@ -11,6 +11,7 @@ tags:
 
 ## 环境
 Linux Mint 19.2 cinnamon x64
+
 SecureCRT 8.5.4(build 1942)
 
 ## 问题
@@ -42,13 +43,13 @@ SecureCRT only lists fonts that are marked as "fixed width" in the font definiti
 
 SecureCRT仅显示系统中所有被标记为等宽的字体。
 
-
+---
 If they (other system fonts) do not show up in SecureCRT it is because they and are
 missing this "fixed width" designation.
 
 如果他们(其他的系统字体)没有出现在SecureCRT中，那是因为他们缺少此“固定宽度”的标记。
 
-
+---
 In this particular case, if a font is "fixed width" but its font designation does not
 indicate it, then you can allow SecureCRT to display non-fixed width fonts by setting
 the "Allow Proportional Fonts" value to 00000001 in your Global.ini file in SecureCRT's
@@ -58,7 +59,7 @@ Config folder.
 配置文件下Global.ini文件中的“Allow Proportional Fonts”参数修改为 00000001，来允许SecureCRT
 显示非固定宽度的字体。
 
-
+---
 Waring: If you will have display problems because glyphs within the font do not all have
 the exact same width.
 
